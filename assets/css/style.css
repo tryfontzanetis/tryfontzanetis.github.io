@@ -29,7 +29,7 @@
 	line-height: 1;
 	color:brown;
 	-webkit-text-size-adjust: none;
-	background: url("img1.jpg") no-repeat center center fixed; 
+	background: url("assets/images/img1.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
