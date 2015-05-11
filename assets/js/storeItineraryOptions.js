@@ -8,8 +8,7 @@ function storeItineraryOptions() {
 	//Erase this line for the future! it just prints 
 	//document.getElementById("demo").innerHTML =itineraryOptionsJSON.city + " " + itineraryOptionsJSON.budget;
 
-	window.location = 'file:///Users/dsanz006/Google%20Drive/DTU/Distributed%20Systems/02220%20Distributed%20systems/BudgetLoc%20Frontpage/ResultsPage.html';
-	//<a href="/ResultsPage.html"></a>
+	window.location = 'results.html';
 }
 
 
