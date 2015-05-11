@@ -36,19 +36,6 @@
   background-size: cover;
     background-color:lightgray; padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 	}
-	h1   {color:brown;
-	font-family:courier;
-    font-size:800%
-	}
-	p	 {
-	color:BlueViolet;
-	font-family:courier;
-    font-size:360%
-	}
-
-	ol, ul {
-		list-style: none;
-	}
 
 	blockquote, q {
 		quotes: none;
