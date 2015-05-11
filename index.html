@@ -33,7 +33,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="assets/ico/favicon.png">
+
 
 	<script type="text/javascript" src="datepicker/js/jquery.js"></script>
 	<script type="text/javascript" src="datepicker/js/datepicker.js"></script>
@@ -50,9 +50,10 @@
 
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation" class="active"><a href="#">Budget</a></li>
             <li role="presentation"><a href="about.html">About</a></li>
-			<li role="presentation"><a href="team.html">Team</a></li>
+			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
           </ul>
         </nav>
 		<h3 class="text-muted">budgetLoc</h3>
@@ -65,9 +66,9 @@
 			
 			<br>
 			<h2 class="lead">Select categories<br>Get offers<br>Pay safely</h2>
-			<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+			<p><a class="btn btn-lg btn-success" href="http://bike2gether.us3.list-manage1.com/subscribe?u=1c05c52c6ce9dd354c6428fa2&id=55b43a8f14" target="_blank" role="button">Sign up today</a></p>
 			<br><br>
-			<h1><b>Book your itinerary</b></h1>
+			<h1><b>Get an offer!</b></h1>
 			
 			<br>
 			<form id="Input_Fields" action="form_action.asp">
@@ -75,9 +76,12 @@
 			 Budget (Danish Kroner): <input type="text" name="Budget"><br>
 			 Date: <input class="inputDate" id="inputDate" value="05/02/2015"/><br><br>
 			<button type="reset" value="Reset" class="btn btn-danger" >Reset</button>
-			<button type="submit" value="Submit" class="btn btn-success">Submit</button>
-			</form> 
-			<p><a class="btn btn-lg"><button onclick="storeItineraryOptions()" class="btn btn-primary">Search Itinerary</button></p>
+			<!-- <button type="submit" value="Submit" class="btn btn-success">Submit</button> -->
+			</form>
+			<br>
+			<button onclick="storeItineraryOptions()" class="btn btn-success">Submit</button>
+			
+			
 			
 			<br><br>
 
@@ -87,10 +91,6 @@
 
 <!-- Footer -->
 	<footer id="footer">
-		<ul class="icons">
-			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		</ul>
 		<ul class="copyright">
 			<li>&copy; budgetLoc 2015</li>
 		</ul>
@@ -100,7 +100,7 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
