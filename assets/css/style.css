@@ -36,6 +36,21 @@
   background-size: cover;
     background-color:lightgray; padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 	}
+	h1 {
+    font-size: 250%;
+	}
+
+	h2 {
+	font-size: 200%;
+	}
+
+	p {
+	font-size: 100%;
+	}
+	h2 {
+	font-size: 100%;
+	
+	}
 
 	blockquote, q {
 		quotes: none;
