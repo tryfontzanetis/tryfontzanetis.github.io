@@ -26,6 +26,18 @@ html,body {
 	color:white;
 }
 
+#job {
+	text-align:center;
+	font-weight:100;
+	color:white;
+}
+
+#profession {
+	text-align:center;
+	font-weight:100;
+	color:white;
+}
+
 nav ul {	
 	padding:0;
 	margin:0;
