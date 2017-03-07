@@ -8,21 +8,22 @@
  */
 
 body {
-  	background-color: #f2f2f2;
+  	/* background-color: #f2f2f2; */
+	background: linear-gradient(to right, #90CAF9, #0D47A1);
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
     padding-top: 80px;
     
-	background-image: url(../img/header-bg.jpg);
-	background-repeat: no-repeat;
+	/* background-image: url(../img/header-bg.jpg); */
+	/* background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     
   }
 
@@ -128,15 +129,16 @@ a:after {
 }
 
 .tab-content {
-	background-color: #ffffff;
+	background: linear-gradient(to left, #E0E0E0, #FAFAFA);
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	border-radius: 50px;
 }
 
 .tab-content h5 {
-	color: #bdc3c7;
+	color: #428bca;
 	font-weight: 700;
 	letter-spacing: 1px;
 	text-align: center;
@@ -180,7 +182,7 @@ a:hover {
 nav ul li, nav ul li a {
 	display:inline-block;
 	min-width:1%;
-	color:#989898;
+	color:#428bca;
 }
 
 nav {
